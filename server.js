@@ -1,6 +1,6 @@
 const http = require ('http');
 
-//cria um servidor
+//criando um servidor
 const server = http.createServer((req, res) => {
     console.log(req.method);
     console.log(req.url);
